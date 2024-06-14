@@ -8,7 +8,7 @@ The first step in our journey is to sign up for an account on Hugging Face. Hugg
 ### Step 2: Request Access to the Large Language Model
 Next, we need to request access to the Meta-Llama-3-8B model from Meta/Facebook. This is a powerful large language model that we're going to use. Head over to [this link](https://huggingface.co/meta-llama/Meta-Llama-3-8B) and request access. Be patient as you wait for your access to be granted. It might take some time, but it's definitely worth the wait. 
 
-For the setup below, will use the TinyLlama/TinyLlama-1.1B-Chat-v1.0 model, which is approximately half the size of Llama3, resulting in faster load times.
+For the setup below, will demonstrate using the TinyLlama/TinyLlama-1.1B-Chat-v1.0 model, which is approximately half the size of Llama3, resulting in faster load times.
 
 ## Prerequisites
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
