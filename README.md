@@ -2,6 +2,14 @@
 This project is designed to streamline the process of loading, managing, and deploying large language models (LLMs) efficiently.
 This project sets up an HTTP server that serves responses from a large language model using Python. The server accepts POST requests with a text prompt and returns a generated response from the model.
 
+### Step 1: Signing up to Hugging Face
+The first step in our journey is to sign up for an account on Hugging Face. Hugging Face is an amazing platform for working with machine learning models, especially for natural language processing. To sign up, simply visit their website at [huggingface.co](https://huggingface.co/) and create an account. It's a straightforward process, and once you're done, you're ready to move on to the next step.
+
+### Step 2: Request Access to the Large Language Model
+Next, we need to request access to the Meta-Llama-3-8B model from Meta/Facebook. This is a powerful large language model that we're going to use. Head over to [this link](https://huggingface.co/meta-llama/Meta-Llama-3-8B) and request access. Be patient as you wait for your access to be granted. It might take some time, but it's definitely worth the wait. 
+
+For the setup below, will use the TinyLlama/TinyLlama-1.1B-Chat-v1.0 model, which is approximately half the size of Llama3, resulting in faster load times.
+
 ## Prerequisites
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Python 3.10 or later
